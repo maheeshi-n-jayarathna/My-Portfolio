@@ -16,26 +16,13 @@
     <link rel="stylesheet" href="style/preloader.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
-
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/Style_Home-Page.css">
-    <link rel="stylesheet" href="css/Style_About-Me.css">
-    <link rel="stylesheet" href="css/Style_My_Skill.css">
-    <link rel="stylesheet" href="css/Style_My_Service.css">
-    <link rel="stylesheet" href="style/Style_My_Education.css">
-    <link rel="stylesheet" href="css/Style_Contact_Me.css">
-    <link rel="stylesheet" href="css/Style_map_Details.css">
-    <link rel="stylesheet" href="style/Style_Footer.css">
-    <link rel="stylesheet" href="style/Style_My_Certificate.css">
+    <link href="https://fonts.google.com/" rel="stylesheet">
 
 
 </head>
 <body>
-<!--<div id="preloader">
-    <img src="assets/image/preloader_main.gif">
-</div>-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light bg-body-tertiary">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <span class="h3 fw-bold">Mahee</span>
@@ -76,9 +63,9 @@
     </header>
 <main>
 <section class="home" id="home">
-    <div class="container">
+    <div class="container" >
         <div class="row">
-            <div class="col-lg-7">
+            <div class="col-lg-6 d-flex text-center align-items-center">
                 <div class="home-content">
                     <h1 class="animate__animated animate__bounce animate__repeat-3">Hello, I’m Maheeshi.</h1>
                     <h2 data-aos="flip-left"> - full stack developer -</h2>
@@ -88,13 +75,10 @@
                     <a href="#about" class="btn-rounded home-about-button">About me</a>
                 </div>
             </div>
-
-            <!--<div class="images">
-                <img src="assets/image/image_shape.png" class="shape">
-                <img src="assets/image/profile_new-removebg-preview.png" class="girl">
-            </div>-->
-
-            <div class="col-lg-12 text-center justify-content-center">
+            <div class="col-lg-6 justify-content-center image d-flex align-items-center">
+                <img src="assets/image/gallery7.jpg" class="girl" alt="">
+            </div>
+            <div class="col-lg-12 text-center justify-content-center" style="margin-top: 10px">
                 <div class="wrapper">
                     <div class="icon facebook">
                         <div  class="tooltip">Facebook</div>
@@ -117,15 +101,6 @@
                         <span><i class="fa-brands fa-twitter"></i></span>
                     </div>
                 </div>
-                <!--<div class="social-media">
-                    <ul>
-                        <li><a href="https://web.facebook.com/naveendana.jayarathna?mibextid=LQQJ4d&_rdc=1&_rdr"><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/maheeshi-jayarathna-56187024a/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                        <li><a href="https://github.com/maheeshi-n-jayarathna"><i class="fa-brands fa-github"></i></a></li>
-                        <li><a href="https://www.instagram.com/maheeshijayarathn/"><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    </ul>
-                </div>-->
             </div>
         </div>
     </div>
@@ -271,9 +246,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--1" name="carousel"
                                            aria-hidden="true" hidden="" checked="checked">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/web_certifi.jpg)">
-                                        <img src="assets/achievement/htmlCertificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/htmlCertificate.png">
                                         <div class="carousel__caption">
                                             <p>HTML Course Certification (Sololearn)<br><br>VERIFY(Credential ID :
                                                 CT-LYWW3YRT) : <a target="_blank" href="https://www.sololearn.com/certificates/CT-LYWW3YRT">VERIFY ME</a></p>
@@ -282,9 +256,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--2" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/bg_python.jpg)">
-                                        <img src="assets/achievement/javaCertificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/javaCertificate.png">
                                         <div class="carousel__caption">
                                             <p>JAVA Course Certification (Sololearn) <br><br>VERIFY(Credential ID :
                                                 CT-KNJFEPGG) : <a target="_blank"
@@ -294,9 +267,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--3" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/ff.jpg)">
-                                        <img src="assets/achievement/sqlCertificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/sqlCertificate.png">
                                         <div class="carousel__caption">
                                             <p>SQL Course Certification (Sololearn)<br><br>VERIFY(Credential ID :
                                                 CT-ZWGROJ6T) : <a target="_blank"
@@ -306,9 +278,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--4" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/cyber-security.webp)">
-                                        <img src="assets/achievement/Great_Learning_JavaScript_Certificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/Great_Learning_JavaScript_Certificate.png">
                                         <div class="carousel__caption">
                                             <p>Introduction to JavaScript Certificate (Great Learning)<br><br>VERIFY(Credential ID : SZCNYSYJ)
                                                 : <a target="_blank"
@@ -318,9 +289,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--5" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/gl_java.jpg)">
-                                        <img src="assets/achievement/Great_Learning_Programming_Certificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/Great_Learning_Programming_Certificate.png">
                                         <div class="carousel__caption">
                                             <p>Programming Basics Certification (Great Learning)<br><br>VERIFY(Credential ID : GSQCHDQN)
                                                 : <a target="_blank"
@@ -331,9 +301,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--6" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/js_code.jpg)">
-                                        <img src="assets/achievement/Great_Learning_SQL_Certificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/Great_Learning_SQL_Certificate.png">
                                         <div class="carousel__caption">
                                             <p>SQL Projects for Beginners Certification (Great Learning)<br><br>VERIFY(Credential ID : SBSLPZTT)
                                                 : <a target="_blank"
@@ -344,9 +313,8 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--7" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/html.jpg)">
-                                        <img src="assets/achievement/Great_Learning_UI_Certificate.png">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/Great_Learning_UI_Certificate.png">
                                         <div class="carousel__caption">
                                             <p>UI/UX for Beginners Certification (Great Learning)<br><br>VERIFY(Credential ID : ZCUEWIFV)
                                                 : <a target="_blank"
@@ -357,100 +325,16 @@
 
                                     <input class="carousel__input" type="radio" id="carousel__slide--8" name="carousel"
                                            aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/css_bg.jpg)">
-                                        <img src="assets/achievement/Introduction%20to%20JavaScript_certificate.jpg">
+                                    <div class="carousel__slide">
+                                        <img src="assets/image/achievement/Introduction%20to%20JavaScript_certificate.jpg">
                                         <div class="carousel__caption">
-                                            <p>CSS Course Certification (Sololearn)<br><br>VERIFY(Credential ID : CC-EFS71EJZ) :
+                                            <p>JavaScript Course Certification (Sololearn)<br><br>VERIFY(Credential ID : CC-EFS71EJZ) :
                                                 <a target="_blank" href="https://api2.sololearn.com/v2/certificates/CC-EFS71EJZ/image/png">VERIFY ME</a></p>
-                                        </div>
-                                    </div>
-
-                                    <input class="carousel__input" type="radio" id="carousel__slide--9" name="carousel"
-                                           aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/js_code.jpg)">
-                                        <img src="assets/achievement/jquery_solo.jpg">
-                                        <div class="carousel__caption">
-                                            <p>JQuery Certification (Sololearn)<br><br>VERIFY(Credential ID : CT-MHA7CH4Z) : <a
-                                                    target="_blank" href="https://learndigital.withgoogle.com/link/1qsdpcedm9s">VERIFY ME</a></p>
-                                        </div>
-                                    </div>
-
-                                    <input class="carousel__input" type="radio" id="carousel__slide--10" name="carousel"
-                                           aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/digital_mk.jpg)">
-                                        <img src="assets/achievement/dgital_marketing.png">
-                                        <div class="carousel__caption">
-                                            <p>The Fundamentals of Digital Marketing (Google)<br><br>VERIFY(Credential ID : P3Q
-                                                QMT 5ZG) : <a target="_blank"
-                                                              href="https://www.sololearn.com/certificates/CT-GAOWWOFS">VERIFY ME</a></p>
-                                        </div>
-                                    </div>
-
-                                    <input class="carousel__input" type="radio" id="carousel__slide--11" name="carousel"
-                                           aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/responsive.jpg)">
-                                        <img src="assets/achievement/responsive_wd_solo.jpg">
-                                        <div class="carousel__caption">
-                                            <p>Responsive Web Design Certification (Sololearn)<br><br>VERIFY(Credential ID :
-                                                CT-GAOWWOFS) : <a target="_blank"
-                                                                  href="https://www.sololearn.com/certificates/course/en/26535111/1068/landscape/png">VERIFY ME</a></p>
-                                        </div>
-                                    </div>
-
-                                    <input class="carousel__input" type="radio" id="carousel__slide--12" name="carousel"
-                                           aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/js_bg_new.jpg)">
-                                        <img src="assets/achievement/java_solo.png">
-                                        <div class="carousel__caption">
-                                            <p>Java-Course Certification (Sololearn)<br><br>VERIFY(Credential ID :
-                                                26535111-1068) : <a target="_blank"
-                                                                    href="https://www.sololearn.com/certificates/course/en/26535111/1060/landscape/png">VERIFY ME</a></p>
-                                        </div>
-                                    </div>
-
-                                    <input class="carousel__input" type="radio" id="carousel__slide--13" name="carousel"
-                                           aria-hidden="true" hidden="">
-                                    <div class="carousel__slide"
-                                         style="background-image:url(assets/achievement/background/sql.jpg)">
-                                        <img src="assets/achievement/sql_solo.png">
-                                        <div class="carousel__caption">
-                                            <p>SQL-Course Certification (Sololearn)<br><br>VERIFY(Credential ID : 26535111-1060)
-                                                : <a target="_blank"
-                                                     href="https://www.sololearn.com/certificates/course/en/26535111/1060/landscape/png">VERIFY ME</a></p>
                                         </div>
                                     </div>
 
 
                                     <!-- ARROWS -->
-                                    <label for="carousel__slide--13"
-                                           class="carousel__arrow carousel__arrow--prev carousel__arrow--1"></label>
-                                    <label for="carousel__slide--13"
-                                           class="carousel__arrow carousel__arrow--next carousel__arrow--12"></label>
-
-                                    <label for="carousel__slide--12"
-                                           class="carousel__arrow carousel__arrow--prev carousel__arrow--13"></label>
-                                    <label for="carousel__slide--12"
-                                           class="carousel__arrow carousel__arrow--next carousel__arrow--11"></label>
-
-                                    <label for="carousel__slide--11"
-                                           class="carousel__arrow carousel__arrow--prev carousel__arrow--12"></label>
-                                    <label for="carousel__slide--11"
-                                           class="carousel__arrow carousel__arrow--next carousel__arrow--10"></label>
-
-                                    <label for="carousel__slide--10"
-                                           class="carousel__arrow carousel__arrow--prev carousel__arrow--11"></label>
-                                    <label for="carousel__slide--10"
-                                           class="carousel__arrow carousel__arrow--next carousel__arrow--9"></label>
-
-                                    <label for="carousel__slide--9"
-                                           class="carousel__arrow carousel__arrow--prev carousel__arrow--10"></label>
-                                    <label for="carousel__slide--9"
-                                           class="carousel__arrow carousel__arrow--next carousel__arrow--8"></label>
 
                                     <label for="carousel__slide--8"
                                            class="carousel__arrow carousel__arrow--prev carousel__arrow--9"></label>
@@ -518,21 +402,6 @@
                                         <li>
                                             <label for="carousel__slide--8" class="carousel__bullets--bullet"></label>
                                         </li>
-                                        <li>
-                                            <label for="carousel__slide--9" class="carousel__bullets--bullet"></label>
-                                        </li>
-                                        <li>
-                                            <label for="carousel__slide--10" class="carousel__bullets--bullet"></label>
-                                        </li>
-                                        <li>
-                                            <label for="carousel__slide--11" class="carousel__bullets--bullet"></label>
-                                        </li>
-                                        <li>
-                                            <label for="carousel__slide--12" class="carousel__bullets--bullet"></label>
-                                        </li>
-                                        <li>
-                                            <label for="carousel__slide--13" class="carousel__bullets--bullet"></label>
-                                        </li>
                                     </ol>
                                 </section>
                                 <!-- partial -->
@@ -547,34 +416,21 @@
 
     <section id="gallery" class="gallery">
         <br>
-        <h1 data-aos="flip-left" align="center"><span style="color: white">GAL</span><span style="color: #f06">LERY</span></h1><br>
-        <div class="gallery-list">
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/profile.jpg" width="300" height="400"  alt=""/></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/IMG-20220423-WA0021.jpg" width="300" height="400"  alt=""/></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/IMG-20230411-WA0010.jpg" width="300" height="400"  alt=""/></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/IMG-20230506-WA0013.jpg" width="300" height="400"  alt=""/></div>
-            </div>
+        <h1 data-aos="flip-left" align="center"><span style="color: white">GAL</span><span style="color: #f06">LERY</span></h1>
+        <div class="full-img" id="fullImgBox">
+            <img src="assets/image/gallery1.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
         </div>
-        <div class="gallery-list">
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/profile new.jpg" width="300" height="400"  alt=""/></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/20230330_095033.jpg" width="300" height="400"  alt=""/></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/IMG-20230613-WA0024.jpg" width="300" height="400"  alt=""/></div>
-            </div>
-            <div class="gallery-item">
-                <div class="content"><img src="assets/image/profile.jpg" width="300" height="400"  alt=""/></div>
-            </div>
+        <div class="img-gallery">
+            <img src="assets/image/gallery1.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery2.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery3.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery4.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery5.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery6.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery7.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery8.jpg" onclick="closeFullImg(this.src)">
+            <img src="assets/image/gallery9.jpg" onclick="closeFullImg(this.src)">
         </div>
         <br><br>
     </section>
@@ -658,19 +514,7 @@
                     </a>
                 </div>
                 <div class="col-lg-12">
-                    <a href="pages/databaseManagementSystem.html"><button id="btnDatabaseManagementSystem">Database Management System</button>
-                        <br>
-                        <br>
-                    </a>
-                </div>
-                <div class="col-lg-12">
                     <a href="pages/objectOrientedProgramming.html"><button id="btnObjectOrientedProgramming">Object Oriented Programming</button>
-                        <br>
-                        <br>
-                    </a>
-                </div>
-                <div class="col-lg-12">
-                    <a href="pages/softwareEngineering.html"><button id="btnSoftwareEngineering">Software Engineering</button>
                         <br>
                         <br>
                     </a>
@@ -696,17 +540,32 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="about-img">
-                        <img src="assets/image/about.jpg" alt="">
+                        <img class="about-png" src="assets/image/gallery3.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <section class="info">
-                        <h3>PERSONAL INFOS</h3>
-                        <h5> <a href="#"><i class='user bx bxs-user'></i></a> FULL NAME : <br>  Maheeshi Naveendana jayarathna</h5><br>
-                        <h5> <a href="#"><i class='user bx bx-world'></i></a> COUNTRY : <br>  Sri Lanka</h5><br>
-                        <h5> <a href="#"><i class='user bx bx-bell'></i></a> FREELANCE : <br>  Available</h5><br>
-                        <h5> <a href="#"><i class='user bx bx-home-heart'></i></a> ADDRESS : <br>  C/48, Ambuwangala, Imbulgasdeniya, Polgahawela</h5><br>
-                        <h5> <a href="#"><i class='user bx bx-envelope' ></i></a> EMAIL : <br>  maheeshijayarathna@gmail.com   </h5>
+                        <p data-aos="fade-up"
+                              data-aos-duration="2000">Hello, I’m Maheeshi Jayarathna. I’m 23 years old. I’m a developer living in Kegalle,
+                            <br>Sri Lanka.
+                            I’m currently studying in Institute Software Engineering (IJSE).</p>
+
+                        <p data-aos="fade-up"
+                           data-aos-duration="2000">I also have knowledge of web development,
+                            UI / UX designing, database <br>management and frameworks.</p>
+
+                        <p data-aos="fade-up"
+                           data-aos-duration="2000">I am dedicated to quest of developing solutions that leverage on best practise <br> technologies to deliver over the top user experience. Also Contact me to get the
+                            <br> service
+                            you need in these areas creatively, efficiently and cleanly.</p>
+
+                        <p data-aos="fade-up"
+                           data-aos-duration="2000">Also, if you want to receive services in a very friendly manner,
+                            <b><br> please</b>
+                                <a href="http://wa.me/+94704042310?text=Hello,Ishara" target="_blank">Contact Me</a>
+                                <b>or</b> <a href="mailto:maheeshijayarathna@gmail.com" target="_blank">Send an E-mail </a> <b>for
+                                    me.</b>
+                        </p>
                     </section>
                 </div>
                 <div class="col-lg-7">
@@ -767,20 +626,38 @@
 
     <section class="contact" id="contact">
         <h1 data-aos="flip-left" align="center"><span style="color: white">CONTACT</span>   <span style="color: #f06">ME </span> </h1>
-                    <form action="#">
-                                <div class="input-box">
-                                    <input type="text" placeholder="YOUR NAME">
-                                    <input type="email" placeholder="YOUR EMAIL">
-                                </div>
+        <!--<div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <h3>PERSONAL INFOS</h3>
+                       <h5> <a href="#"><i class='user bx bxs-user'></i></a> FULL NAME : <br>  Maheeshi Naveendana jayarathna</h5><br>
+                       <h5> <a href="#"><i class='user bx bx-world'></i></a> COUNTRY : <br>  Sri Lanka</h5><br>
+                       <h5> <a href="#"><i class='user bx bx-bell'></i></a> FREELANCE : <br>  Available</h5><br>
+                       <h5> <a href="#"><i class='user bx bx-home-heart'></i></a> ADDRESS : <br>  C/48, Ambuwangala, Imbulgasdeniya, Polgahawela</h5><br>
+                       <h5> <a href="#"><i class='user bx bx-envelope' ></i></a> EMAIL : <br>  maheeshijayarathna@gmail.com   </h5>
+                </div>
+            </div>
+        </div>-->
+        <!--<div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5">-->
+                     <form action="#">
+                         <div class="input-box">
+                             <input type="text" placeholder="YOUR NAME">
+                             <input type="email" placeholder="YOUR EMAIL">
+                         </div>
 
-                                <div class="input-box">
-                                    <input type="number" placeholder="YOUR MOBILE NUMBER">
-                                    <input type="text" placeholder="YOUR SUBJECT">
-                                </div>
+                         <div class="input-box">
+                             <input type="number" placeholder="YOUR MOBILE NUMBER">
+                             <input type="text" placeholder="YOUR SUBJECT">
+                         </div>
 
-                                <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
-                                <input type="submit" value="SEND MESSAGE" class="btn1">
-                    </form>
+                         <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+                         <input type="submit" value="SEND MESSAGE" class="btn1">
+                     </form>
+             <!--   </div>
+            </div>
+        </div>-->
                 <div class="col-12 justify-content-center text-center media" style="margin-top: 5px">
                     <a href="https://web.facebook.com/naveendana.jayarathna?mibextid=LQQJ4d&_rdc=1&_rdr">
                         <img alt="facebook icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCI+CjxsaW5lYXJHcmFkaWVudCBpZD0iTGQ2c3FydGN4TXlja0VsNnhlRGRNYV91TFdWNUE5dlhJUHVfZ3IxIiB4MT0iOS45OTMiIHgyPSI0MC42MTUiIHkxPSI5Ljk5MyIgeTI9IjQwLjYxNSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzJhYTRmNCI+PC9zdG9wPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwN2FkOSI+PC9zdG9wPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZmlsbD0idXJsKCNMZDZzcXJ0Y3hNeWNrRWw2eGVEZE1hX3VMV1Y1QTl2WElQdV9ncjEpIiBkPSJNMjQsNEMxMi45NTQsNCw0LDEyLjk1NCw0LDI0czguOTU0LDIwLDIwLDIwczIwLTguOTU0LDIwLTIwUzM1LjA0Niw0LDI0LDR6Ij48L3BhdGg+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjcwNywyOS4zMDFoNS4xNzZsMC44MTMtNS4yNThoLTUuOTg5di0yLjg3NGMwLTIuMTg0LDAuNzE0LTQuMTIxLDIuNzU3LTQuMTIxaDMuMjgzVjEyLjQ2IGMtMC41NzctMC4wNzgtMS43OTctMC4yNDgtNC4xMDItMC4yNDhjLTQuODE0LDAtNy42MzYsMi41NDItNy42MzYsOC4zMzR2My40OThIMTYuMDZ2NS4yNThoNC45NDh2MTQuNDUyIEMyMS45ODgsNDMuOSwyMi45ODEsNDQsMjQsNDRjMC45MjEsMCwxLjgyLTAuMDg0LDIuNzA3LTAuMjA0VjI5LjMwMXoiPjwvcGF0aD4KPC9zdmc+"/>
@@ -819,6 +696,14 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
+
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+        fullImgBox.style.display = "flex";
+        fullImg.src = pic;
+    }
 </script>
 
 </body>
