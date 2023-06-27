@@ -1,19 +1,10 @@
-$('.nav-btn').click(function(e){
-    var location;
-    $('#main').css("display", "none");
-    $('#order').css("display", "none");
-    $('#item').css("display", "none");
-    $('#customer').css("display", "none");
-    switch (e.target.id){
-        case "main-btn": location = "main";break;
-        case "order-btn": location = "order";break;
-        case "item-btn": location = "item";break;
-        case "customer-btn": location = "customer";break;
-    }
-    $('#'+location).css("display", "block");
+// Navigation
+var navLocation = '#home';
+$('.nav-link').click(function(e){
+    $(navLocation).css("display", "none");
+    navLocation = "#"+e.target.innerHTML.toLowerCase();
+    $(navLocation).css("display", "block");
 });
-
-
 //
 // const customerTable = document.getElementById('tblCustomer');
 // let selectedCustomerRowIndex;
@@ -46,11 +37,11 @@ $('.nav-btn').click(function(e){
 //     }
 //     $('#tblCustomerBody').append(
 //         "<tr>" +
-//         "<td>"+id+"</td>" +
-//         "<td>"+nic+"</td>" +
-//         "<td>"+name+"</td>" +
-//         "<td>"+salary+"</td>" +
-//         "<td>"+address+"</td>" +
+//             "<td>"+id+"</td>" +
+//             "<td>"+nic+"</td>" +
+//             "<td>"+name+"</td>" +
+//             "<td>"+salary+"</td>" +
+//             "<td>"+address+"</td>" +
 //         "</tr>"
 //     );
 //     displayCustomerSelectedRow();
@@ -209,9 +200,9 @@ $('.nav-btn').click(function(e){
 //
 // var cId = /^(C)[0-9]{3}$/;
 // var cNic = /^[0-9]{12}$/;
-// var cName = /^[A-Z][a-z]{3,30}$/;
+// var cName = /^[A-Z]{3,30}$/;
 // var cSalary = /^[1-9][0-9]*(.[0-9]{2})?$/;
-// var cAddress = /^[A-Z][a-z0-9 ,]{5,40}$/;
+// var cAddress = /^[a-z0-9 ,]{5,40}$/;
 //
 //
 //
